@@ -1,0 +1,150 @@
+.container{
+   width: 1256px; 
+   padding-left: 15px;
+   padding-right: 15px;
+   margin: 0 auto;
+   outline: 1px solid red;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+.header {
+    padding-top: 26px;
+    padding-bottom: 11px;
+    background-color: #1E252B;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 257px;
+    
+}
+
+.header-img {
+    width: 20px;
+    height: 20px;
+}
+
+.header-span {
+color: rgba(255, 255, 255, 0.90);
+font-size: 22px;
+font-weight: 600;
+line-height: 1.5;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-link {
+color: rgba(255, 255, 255, 0.55);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+}
+
+.header-list {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+}
+
+.header-link {
+ color: rgba(255, 255, 255, 0.78);
+font-size: 16px;
+font-weight: 600;
+line-height: 1.5;
+background-color: transparent;
+}
+
+.header-list .header-item:nth-of-type(2) .header-link {
+    padding: 12px 28px;
+    border-radius: 8px;
+    background: #FF6E30;
+}
+
+
+
+.hero-title {
+color: rgba(255, 255, 255, 0.90);
+font-size: 50px;
+font-weight: 500;
+line-height: 1.4;
+width: 600px;
+margin-top: 111px;
+margin-bottom: 30px;
+}
+
+.hero-t {
+    color: #FF6E30;
+}
+
+.hero-text {
+color: rgba(255, 255, 255, 0.55);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.66; 
+width: 487px;
+margin-bottom: 60px;
+}
+
+
+.hero-form {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 11px;
+    padding-left: 55px;
+    border-radius: 15px;
+border: 1.5px solid rgba(255, 255, 255, 0.10);
+background: #283036;
+width: 498px;
+display: flex;
+justify-content: space-between;
+}
+
+.hero-input {
+    color: rgba(255, 255, 255, 0.38);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.5;
+background-color: transparent;
+border: transparent;
+}
+
+.hero-btn {
+color: #FFF;
+font-size: 16px;
+font-weight: 600;
+line-height: 1.5;
+padding: 12px 36px;
+border-radius: 8px;
+background: #FF6E30;
+
+}
+
+.hero-list {
+    display: flex;
+    gap: 30px;
+    margin-top: 110px;
+}
+
+.hero-item {
+    padding: 11px;
+}
+
+.hero-img {
+width: 34px;
+height: 34px;
+
+}

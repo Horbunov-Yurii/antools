@@ -3,7 +3,7 @@
    padding-left: 15px;
    padding-right: 15px;
    margin: 0 auto;
-   outline: 1px solid red;
+   /* outline: 1px solid red; */
 }
 
 body {
@@ -13,11 +13,9 @@ body {
 
 .header {
     padding-top: 26px;
-    /* padding-bottom: 11px; */
+    padding-bottom: 58px;
     background-color: #1E252B;
-    background-image: url(../images/Illustration.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
+   
 }
 
 .header-box {
@@ -79,6 +77,23 @@ background-color: transparent;
 }
 
 
+.hero{
+    padding-top: 104px;
+   
+}
+
+.hero > .container {
+    width: 1514px;
+    padding-left: 144px;
+    padding-right: 144px;
+  background-image: url(../images/Illustration.png);
+    background-repeat: no-repeat;
+    /* background-position: 900px; */
+    background-size: contain;
+    background-position: right 200%;
+}
+
+
 
 .hero-title {
 color: rgba(255, 255, 255, 0.90);
@@ -86,7 +101,6 @@ font-size: 50px;
 font-weight: 500;
 line-height: 1.4;
 width: 600px;
-margin-top: 111px;
 margin-bottom: 30px;
 }
 
@@ -125,6 +139,8 @@ line-height: 1.5;
 background-color: transparent;
 border: transparent;
 }
+
+
 
 .hero-btn {
 color: #FFF;

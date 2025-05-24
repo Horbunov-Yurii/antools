@@ -74,6 +74,19 @@ background-color: transparent;
     padding: 12px 28px;
     border-radius: 8px;
     background: #FF6E30;
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(.15,.93,.89,.08);
+   
+}
+
+
+.header-list .header-item:nth-of-type(2) .header-link:hover{
+    background-color: red;
+    color: darkblue;
+     /* transition-property: background-color, color;
+    transition-duration: 2500ms;
+    transition-timing-function: cubic-bezier(.15,.93,.89,.08); */
 }
 
 
